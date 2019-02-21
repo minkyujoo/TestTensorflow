@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7e171493-3b52-417b-b49a-8cfac4571a44</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>word2vec_basic.py</StartupFile>
+    <StartupFile>kmeans.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,13 +28,22 @@
     <Compile Include="kmeans.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="mnist_cnn.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mnist_sample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="partial_differencial_smaple.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="regression.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="multiply.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tensorboard_test.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="word2vec.py">
